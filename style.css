@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.first{
+    background:url("assets/ibackgroundmage.png");
+    background-size: cover;
+    height:200%;
+    width:100%;
+}
+.second{
+   background-image:url("assets/ibackgroundmage.png");
+    padding: 20px 25px;
+    font-size: larger;
+    width: 550px;
+    height:550px;
+    color:#010222;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(198, 198, 167, 0.294);
+}
+.container {
+  background-color:none;
+  padding: 20px 25px;
+  width: 550px;
+  height:550px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(209, 206, 206, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form input,
+form select,
+form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+form button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+#expense-list {
+  Background:lineargradient(#a0b7ce,#5b7792);
+  list-style: none;
+  padding: 0;
+}
+#expense-list li {
+  padding: 8px;
+  margin-bottom: 6px;
+  border-radius: 4px;
+}
+.clr{
+    color:#020d03;
+}

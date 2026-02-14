@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Expense Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="first">
+<div class=" container text-center">
+<h1>Student Expense Tracker</h1>
+
+  <!-- Expense Form -->
+  <form id="expense-form">
+    <input type="text" id="title" placeholder="Expense title" required>
+    <input type="number" id="amount" placeholder="Amount" required>
+    <input type="date" id="datee" required>
+    <input type="text" id="category" list="category-options" placeholder="Select" required>
+    <datalist id="category-options">
+      <option value="Food">
+      <option value="Travel">
+        <option value="Clothes">
+        </datalist>
+   <button type="submit" id="submit-btn">Add Expense</button>
+  </form>
+  <a href="view.html" id="viewBtn"> View Changes </a>
+  </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

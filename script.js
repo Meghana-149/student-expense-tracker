@@ -36,7 +36,7 @@ if (form) {
 
         if (currentEdit !== null && expenses[currentEdit]) {
             expenses[currentEdit] = updatedExpense;
-            //localStorage.removeItem("editIndex");
+            localStorage.removeItem("editIndex");
             alert("Expense updated successfully!");
         } else {
             expenses.push(updatedExpense);
@@ -44,6 +44,7 @@ if (form) {
         }
 
         localStorage.setItem("expenses", JSON.stringify(expenses));
+        if (submitBtn) submitBtn.textContent = "Add Expense";
         form.reset();
 
         // Redirect to view page
